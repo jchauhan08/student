@@ -20,6 +20,23 @@ Hi! My name is [Your Full Name].
 
 ### Development Environment
 
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<button onclick="confetti()" style="margin-top: 20px; padding: 10px; background-color: #f39c12; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  Celebrate!
+</button>
+
+<script>
+  window.onload = () => {
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
+  };
+</script>
+
+
 > Coding starts with tools, explore these tools and procedures with a click.
 <head>
   <meta charset="UTF-8">
