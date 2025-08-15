@@ -21,6 +21,14 @@ Hi! My name is [Your Full Name].
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
 
 <a href="https://github.com/Open-Coding-Society/student">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub">
@@ -40,6 +48,13 @@ Hi! My name is [Your Full Name].
 
 <br>
 
+<br>
+  <p>Check out this cool icon:</p>
+
+  <!-- Camera icon -->
+  <i class="fas fa-camera icon"></i>
+<br>
+
 ### Class Progress
 
 <a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
@@ -52,8 +67,8 @@ Hi! My name is [Your Full Name].
 <br>
 
 <!-- Contact Section -->
-### Get in Touch
+### Get in Touch 
 
-> Feel free to reach out if you'd like to collaborate or learn more about our work.
+> Feel free to reach out if you'd like to collaborate or learn more about our work. 
 
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
