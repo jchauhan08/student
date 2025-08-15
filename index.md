@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm Jaynee
 hide: true
 ---
 
@@ -34,7 +34,6 @@ Hi! My name is [Your Full Name].
 <a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
     <span style="color: #FFFFFF">VSCODE</span>
 </a>
-
 <a href="https://htmlcheatsheet.com/" class="button small" style="background-color: #4bd36dff">
     <span style="color: #FFFFFF">HTML sheet</span>
 </a>
