@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I'm Jaynee
+title: I'm Jaynee C.
 hide: true
 ---
 
