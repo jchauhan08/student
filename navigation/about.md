@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: About Jaynee C. 
 permalink: /about/
 comments: true
 ---
