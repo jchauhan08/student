@@ -98,7 +98,7 @@ Flags are made using Wikipedia images
     }
 </script>
 
-### Journey through Life
+### Get to know me
 
 Here is a little bit about me!👋🏽
 
@@ -110,7 +110,7 @@ Here is a little bit about me!👋🏽
 - 🎓 My dream school is UCSD or UCLA
 - 📖 I enjoy reading, I read a lot of fantasy
 - 💃🏽 I've done dance for 11 years 
-- 🌟 I love watching Disney movies
+- 🏓 I love playong pickleball
 
 ### Culture, Family, and Fun
 
