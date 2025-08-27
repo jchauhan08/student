@@ -1,109 +1,86 @@
 ---
 layout: post
-title: Build a Themed Interactive Website
-description: Learn how to create a themed mini-site using GitHub Pages, JavaScript, and Jupyter Notebooks.
+title: GitHub Pages
+description: The Web Programming topics are focused on learning Frontend programming, GitHub Pages, and Jupyter Notebooks.
 categories: ['JavaScript']
-permalink: /projects/interactive-site
+permalink: /github/pages/intro
 type: ccc
 courses: {'csse': {'week': 2}, 'csp': {'week': 2}, 'csa': {'week': 1}}
-author: Your Name
-menu: nav/interactive_site.html
+author: John Mortensen
+menu: nav/github_pages.html
 ---
 
-# 🚀 Build a Themed Interactive Website Using GitHub Pages & JavaScript
+# Build Your Own Info Website with GitHub Pages
 
-Welcome to your Web Development mini-project! In this lesson, you'll learn how to build a fun and interactive site powered by **GitHub Pages**, **Jupyter Notebooks**, and **JavaScript**.
-
----
-
-## 🎯 Learning Goals
-
-By completing this project, you’ll be able to:
-
-- Create and publish a multi-page website using GitHub Pages
-- Design and build a **submenu navigation system**
-- Embed **JavaScript interactivity** (random joke generator, quiz, etc.)
-- Manage and share files through **Git & GitHub**
-- Style your site using HTML & CSS
+Welcome! In this mini project, you and your programming partner will create an interactive information website using GitHub Pages. This is a great way to practice web programming skills while building something fun and useful.
 
 ---
 
-## 🧠 Project Theme: You Choose!
+## What You’ll Learn and Do
 
-Pick a topic you enjoy or want to explore! Your site will be organized into sections based on your theme.
+By the end of this project, you will:
 
-### 💡 Suggested Themes:
-
-- 🎮 **Gaming Tips** – Mods, walkthroughs, Discords, etc.
-- 🏋️ **Fitness Tracker** – Workouts, sleep/nutrition, progress charts
-- 🐟 **Hobby Blog** – Raising pets, gardening, cooking, etc.
-- 🤣 **Career Humor** – Explore jobs with a funny twist
-
----
-
-## 🗂️ Project Structure
-
-You’ll organize your project using a **submenu**, where each link leads to a themed subpage.
-
-### 🧩 Required Features
-
-| Feature | Description |
-|--------|-------------|
-| 🔗 Submenu | Custom navigation to link related topic pages |
-| 📄 Custom Pages | Unique content under each submenu link |
-| 📊 Interactivity | Use JavaScript to display dynamic content (e.g., random jokes) |
-| 🎨 Styling | Add styles using CSS or GitHub themes |
-| 🧪 Debugging | Use Developer Tools to inspect your code |
+- Create a **submenu** for easy navigation
+- Organize your website content using submenu headings
+- Design custom pages for each submenu topic
+- Generate and display data relevant to your topic
+- Add interactivity to your pages using JavaScript
+- Explore the structure of a GitHub Pages site
+- Experiment with styles and start debugging your pages
 
 ---
 
-## ✍️ Brainstorm & Plan
+## Choosing Your Topic
 
-Start by sketching out your idea.
+Your website can be about anything you like! Here are some ideas to get you started:
 
-### Example Theme: **Career Humor**
-
-**Submenu Sections:**
-
-1. Computer Science
-2. Accounting
-3. Journalism
-4. Engineering
-5. Astronomy
-6. Film & Media
-
-**Page Ideas:**
-- Each page has themed jokes or fun facts
-- Random joke generators powered by JavaScript
-- Use of emojis, difficulty ratings, or “Did you know?” trivia
+- **Gaming Hub:** Showcase your favorite games, share tips, link to Discord groups, discuss mods, and more.
+- **Fitness Tracker:** Outline your workout routines, track progress, and include tips about nutrition and sleep.
+- **Pet Care:** Share information about raising pets or fish, record observations, and suggest helpful resources.
+- **Career Humor:** Make a lighthearted site with jokes and fun facts about different careers.
 
 ---
 
-## 💻 JavaScript Example: Random Joke Generator
+## Brainstorming Together
 
-Here’s an example of how to create a random joke generator using JavaScript.
+Start by brainstorming ideas with your partner. Discuss what interests you and decide what your website will focus on.
+
+Examples of brainstormed ideas:
+
+- A blog about gaming strategies
+- A fitness challenge tracker
+- A guide to fish care
+- A collection of career-related jokes
+
+---
+
+## Brainwriting: Career Humor Example
+
+Let's say you pick **Career Humor** as your theme. Brainwriting means jotting down ideas quickly to organize them.
+
+For Career Humor, you could create categories based on popular careers, such as:
+
+1. Computer Science  
+2. Accounting  
+3. Journalism  
+4. Film and Media  
+5. Mechanical Engineering  
+6. Biomedical Engineering  
+7. Astronomy  
+
+---
+
+## Adding Fun Data: Jokes with JavaScript
+
+You can add jokes or fun facts about each career category. Here’s an example of how JavaScript can randomly display a joke in the browser console:
 
 ```javascript
-var cs_jokes = [
-  {
-    joke: "Why was the computer cold? It left its Windows open.",
-    explanation: "This is a pun. 'Windows' is a computer operating system, but it also means the glass windows in your house!"
-  },
-  {
-    joke: "Why don’t computers take their hats off? Because they have CAPS LOCK on.",
-    explanation: "'Caps Lock' is a keyboard key that types in capital letters — also a pun on wearing a cap (hat)!"
-  },
-  {
-    joke: "Why did the computer go to art school? It wanted to learn how to draw its graphics.",
-    explanation: "Computers use something called 'graphics cards' to show images — this joke is a silly play on that."
-  },
-  {
-    joke: "Why couldn't the computer play soccer? It kept kicking the mouse!",
-    explanation: "A computer mouse helps you click — but 'kicking the mouse' sounds like a sports move!"
-  }
-]
-
-var index = Math.floor(Math.random() * cs_jokes.length);
-var selected = cs_jokes[index];
-
-console.log("Joke: " + selected.joke + " | Difficulty: " + selected.level);
+var csJokes = [
+  { joke: "Why do programmers hate nature? Too many bugs!", difficulty: "Easy" },
+  { joke: "Why do Java developers wear glasses? Because they can't C#.", difficulty: "Medium" },
+  { joke: "Why do programmers prefer dark mode? Because light attracts bugs.", difficulty: "Easy" },
+  { joke: "Why was the developer's code so clean? Because he used a broom() function.", difficulty: "Hard" },
+  { joke: "Why did the programmer quit his job? Because he didn't get arrays.", difficulty: "Medium" }
+];
+var randomIndex = Math.floor(Math.random() * csJokes.length);
+console.log("Here's a joke: " + csJokes[randomIndex]);
