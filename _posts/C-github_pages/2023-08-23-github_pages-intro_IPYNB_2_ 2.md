@@ -76,7 +76,7 @@ You can add jokes or fun facts about each career category. Here’s an example o
 
 ```javascript
 var csJokes = [
-  { joke: "Why do programmers hate nature? Too many bugs!", difficulty: "Easy" },
+  { joke: "Why do computer scientists prefer the metric system? They are all pro-gram-ers!", difficulty: "Easy" },
   { joke: "Why do Java developers wear glasses? Because they can't C#.", difficulty: "Medium" },
   { joke: "Why do programmers prefer dark mode? Because light attracts bugs.", difficulty: "Easy" },
   { joke: "Why was the developer's code so clean? Because he used a broom() function.", difficulty: "Hard" },
