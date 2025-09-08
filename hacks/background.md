@@ -1,10 +1,10 @@
 ---
-layout: opencs
+layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
 sprite: images/platformer/sprites/flying-ufo.png
 background: images/platformer/backgrounds/alien_planet1.jpg
-permalink: background
+permalink: /background
 ---
 
 <canvas id="world"></canvas>
@@ -91,14 +91,14 @@ permalink: background
         this.canvas.style.left = `0px`;
         this.canvas.style.top = `${(window.innerHeight - this.height) / 2}px`;
 
-        this.objects = [
+        this.gameObjects = [
          new Background(backgroundImg, this),
          new Player(spriteImg, this)
         ];
       }
       gameLoop() {
         this.ctx.clearRect(0, 0, this.width, this.height);
-        for (const obj of this.objects) {
+        for (const obj of this.gameObjects) {
           obj.update();
           obj.draw(this.ctx);
         }
