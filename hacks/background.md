@@ -4,8 +4,8 @@ layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
 # these are locations of images in this game
-sprite: images\platformer\sprites\Free-gingerbread-man-clip-art-4.png
-background: images\platformer\backgrounds\candyland.webp
+sprite: images/platformer/sprites/Free-gingerbread-man-clip-art-4.png
+background: images/platformer/backgrounds/candyland.webp
 permalink: /background
 ---
 
