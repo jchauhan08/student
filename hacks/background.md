@@ -1,14 +1,18 @@
 ---
+# YML definition of metadata for file, used by Git Pages
 layout: base
 title: Background with Object
 description: Use JavaScript to have an in motion background.
-sprite: images/platformer/sprites/flying-ufo.png
-background: images/platformer/backgrounds/alien_planet1.jpg
+# these are locations of images in this game
+sprite: images\platformer\sprites\Free-gingerbread-man-clip-art-4.png
+background: images\platformer\backgrounds\candyland.webp
 permalink: /background
 ---
 
+<!-- HTML for where Game is stored-->
 <canvas id="world"></canvas>
 
+<!--Scripts logic for the Game -->
 <script>
   const canvas = document.getElementById("world");
   const ctx = canvas.getContext('2d');
@@ -75,6 +79,10 @@ permalink: /background
         this.frame++;
       }
     }
+
+    /* Game world is master class/object for the entire game
+    * The game loop is inside
+    */
 
     class GameWorld {
       static gameSpeed = 5;
