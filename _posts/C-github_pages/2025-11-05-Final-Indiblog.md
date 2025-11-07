@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anatomy of GitHub Pages
+title: Final Review Blog 
 description: This goes over all of my glows and grows this trimester in Compsci.
 author: Jaynee Chauhan
 categories: ['Reflection,3 sprints,N@tM, Future Plans']
