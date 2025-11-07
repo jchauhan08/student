@@ -40,6 +40,7 @@ Moving forward, I have some clear goals for how I want to improve my collaborati
 - **Don't let people take over** - I want to be more conscious about making sure everyone's voice is heard and no single person dominates the direction of a project
 
 ## Analytics Review
+
 | **Assignment**                | **Points**    | **Grade** | **Evidence** |
 |-------------------------------|---------------|-----------|--------------|
 | Sprint 1-3 Review Ticket      | 3             | 2.8       | Comprehensive review of all three sprints with detailed reflection on tools, lessons learned, and growth. Included charts and visual analytics. |
